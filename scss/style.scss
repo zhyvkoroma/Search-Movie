@@ -1,0 +1,33 @@
+@import 'components/button';
+@import 'components/input';
+@import 'components/short-card';
+@import 'components/full-card';
+
+@font-face {
+  font-family: "mukta-regular";
+  src: url(../fonts/Mukta-Regular.ttf);
+  font-family: "mukta-light";
+  src: url(../fonts/Mukta-ExtraLight.ttf);
+  font-family: "mukta-bold";
+  src: url(../fonts/Mukta-Regular.ttf);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url(../images/71OMaNiw1YL._AC_SX679_.jpg);
+  background-repeat: repeat-y;
+  background-position: right 80px;
+  background-size: 400px 400px;
+}
+
+
+
+
